@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "toolxpert",
+    "slug": "toolxpert",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "toolxpert",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.juggernaut09.toolxpert"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "efd29764-6854-4d9d-b96f-da7ae599dfec"
+      }
+    }
+  }
+}
